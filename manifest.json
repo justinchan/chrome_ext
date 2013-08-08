@@ -1,0 +1,15 @@
+{
+  "manifest_version": 2,
+
+  "name": "Nextbus Estimator",
+  "description": "This extension gets arrival times for AC Transit routes. Images from AC Transit website. Real-time data from Nextbus API.",
+  "version": "1.13",
+
+  "browser_action": {
+    "default_icon": "ACTransit_Logo.png",
+    "default_popup": "popup.html"
+  },
+  "permissions": [
+    "http://webservices.nextbus.com/"
+  ]
+}
